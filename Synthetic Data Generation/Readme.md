@@ -38,4 +38,5 @@ This section of the script is where the model components are instantiated, compi
 - **Model Training**: The model is trained using real EEG data formatted to the required dimensions. Training parameters such as the number of epochs are set in this section.
 
 # WaveGan Results 
-![download (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/d84dd303-91bd-4de6-8b75-2dce1bc6b8f3)
+![download (3)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/f7968515-ee04-431e-b03e-fdc57b9351ea)
+
