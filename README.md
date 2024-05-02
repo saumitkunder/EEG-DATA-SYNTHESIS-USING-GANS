@@ -6,11 +6,12 @@
 2. [Installation](#installation)
 3. [Workflow](#workflow)
 4. [Dataset Preparation](#dataset-preparation)
-5. [Model Architecture ](#model-architecture)
-6. [Training](#training)
-7. [Results](#results)
-8. [Future Work](#future-work)
-9. [Conclusion](#conclusion)
+5. [Model Used](#model-used)
+6. [Model Architecture ](#model-architecture)
+7. [Training](#training)
+8. [Results](#results)
+9. [Future Work](#future-work)
+10. [Conclusion](#conclusion)
 # Introduction
 Electroencephalography (EEG) serves as a fundamental tool in the diagnosis and monitoring of epilepsy, a neurological disorder characterized by recurrent seizures. EEG recordings provide valuable insights into the dynamic electrical activity of the brain, aiding clinicians in identifying epileptiform patterns and guiding treatment decisions. However, the analysis of EEG data is often challenged by limitations such as data scarcity, artifacts, and variability across patients.
 In recent years, deep learning techniques, particularly Generative Adversarial Networks (GANs), have emerged as promising approaches for enhancing the quality and utility of EEG data. GANs offer a powerful framework for generating synthetic EEG samples that closely resemble real-world recordings, enabling data augmentation and artifact removal while preserving the underlying physiological characteristics.
@@ -33,7 +34,8 @@ We divided and shuffled every 4097 data points into 23 chunks, each chunk contai
 
 All subjects falling in classes 2, 3, 4, and 5 are subjects who did not have epileptic seizure. Only subjects in class 1 have epileptic seizure. Our motivation for creating this version of the data was to simplify access to the data via the creation of a .csv version of it. Although there are 5 classes most authors have done binary classification, namely class 1 (Epileptic seizure) against the rest.
 
-Model Used: Generative Adversarial Network (GAN) aimed at generating EEG data related to epileptic and non-epileptic seizures. It begins by constructing a discriminator network using TensorFlow and Keras, designed to classify inputs as either real or generated data. This discriminator consists of a dense network with a sigmoid output layer, appropriate for binary classification, and is compiled with a binary cross-entropy loss function and SGD optimizer. A simplistic generator model is also defined, which will transform latent space vectors into data points meant to mimic the real EEG data's structure.
+# Model Used
+Generative Adversarial Network (GAN) aimed at generating EEG data related to epileptic and non-epileptic seizures. It begins by constructing a discriminator network using TensorFlow and Keras, designed to classify inputs as either real or generated data. This discriminator consists of a dense network with a sigmoid output layer, appropriate for binary classification, and is compiled with a binary cross-entropy loss function and SGD optimizer. A simplistic generator model is also defined, which will transform latent space vectors into data points meant to mimic the real EEG data's structure.
 
 A GAN class is then defined, which encapsulates both the generator and discriminator. This class includes a custom training step that involves generating fake data, combining it with real data, and then training the discriminator on this mixture. The generator is subsequently trained to fool the discriminator using misleading labels. The GAN is compiled with Adam optimizers for both the generator and discriminator, and a binary cross-entropy loss function configured to align with the sigmoid activation in the discriminator. Finally, the GAN is trained using EEG data for a specified number of epochs. This setup aims to allow the generator to learn to produce new EEG-like data that mimics the distribution of the real EEG data used in training, potentially aiding in tasks like data augmentation for training other models or studying seizure-related EEG patterns.
 
