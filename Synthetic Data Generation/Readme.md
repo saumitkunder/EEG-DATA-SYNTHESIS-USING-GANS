@@ -36,3 +36,5 @@ This section of the script is where the model components are instantiated, compi
 - **Model Compilation**: The WaveGAN model is instantiated with the created generator and discriminator, and it is compiled with the Adam optimizer and binary cross-entropy loss.
 - **Model Training**: The model is trained using real EEG data formatted to the required dimensions. Training parameters such as the number of epochs are set in this section.
 
+# WaveGan Results 
+![download (2)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/d84dd303-91bd-4de6-8b75-2dce1bc6b8f3)
