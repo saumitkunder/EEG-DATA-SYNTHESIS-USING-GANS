@@ -113,5 +113,11 @@ No. Of epochs = 5000
 Improved Model Architectures: Experiment with more advanced GAN architectures or modifications of existing architectures tailored specifically for EEG data synthesis. Explore techniques such as Wasserstein GANs (WGANs), Progressive GANs, or attention mechanisms to enhance the quality and diversity of synthetic EEG data.
 Multi-Modal Data Synthesis: Incorporate additional modalities, such as simultaneous EEG and fMRI data, to create multi-modal synthetic datasets. This could provide richer representations of brain activity and facilitate more comprehensive studies on epilepsy and related disorders. 
 
-# Conclusion 
-The WaveGan Model architecture gave us the best results 
+# Conclusion
+
+The implementation of WaveGAN for synthesizing EEG data has demonstrated significant potential in generating realistic EEG signals. This project not only serves as a proof of concept but also opens up numerous possibilities for further research and development in the field of EEG analysis and synthesis.
+
+### Achievements
+- **Successful Implementation**: The WaveGAN model was successfully adapted and implemented for the specific task of EEG data synthesis, showing good performance in generating believable EEG-like signals.
+- **Advancement in EEG Research**: By providing a method to generate synthetic EEG data, this project contributes to EEG research, offering a tool that can be used for various applications such as data augmentation, testing of EEG processing algorithms, and training of machine learning models without the need for extensive real data.
+
