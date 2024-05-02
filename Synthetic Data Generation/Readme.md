@@ -1,4 +1,3 @@
-<div style="border-radius:12px; padding: 20px; background-color: #d5d5ed; font-size:120%; text-align:center">
 # Comparision and evaluation of Various GAN architectures for Synthetic EEG Data
 
   
