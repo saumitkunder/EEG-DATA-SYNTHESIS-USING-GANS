@@ -26,7 +26,8 @@ To run the code in this project, you will need the following dependencies instal
 4.Matplotlib: For data visualization
 5.Pandas: For data manipulation and preprocessing
 # Workflow 
-![Flowchart Building](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/aac0ee1b-797f-4ce0-a1ca-40d8ed778cd8)
+![Flowchart Building (1)](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/109196162/427f3e8b-7df1-4565-8f3b-a04d9143a14f)
+
 
 
 # Dataset Preparation
