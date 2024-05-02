@@ -18,11 +18,11 @@ In recent years, deep learning techniques, particularly Generative Adversarial N
 # Installation
 To run the code in this project, you will need the following dependencies installed:
 
-Python: Version 3.6 or higher
-TensorFlow: Version 2.0 or higher
-NumPy: For numerical computations
-Matplotlib: For data visualization
-Pandas: For data manipulation and preprocessing
+1.Python: Version 3.6 or higher
+2.TensorFlow: Version 2.0 or higher
+3.NumPy: For numerical computations
+4.Matplotlib: For data visualization
+5.Pandas: For data manipulation and preprocessing
 # Workflow 
 
 
