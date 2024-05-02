@@ -10,8 +10,9 @@
 6. [Model Architecture ](#model-architecture)
 7. [Training](#training)
 8. [Results](#results)
-9. [Future Work](#future-work)
-10. [Conclusion](#conclusion)
+   
+10. [Future Work](#future-work)
+11. [Conclusion](#conclusion)
 # Introduction
 Electroencephalography (EEG) serves as a fundamental tool in the diagnosis and monitoring of epilepsy, a neurological disorder characterized by recurrent seizures. EEG recordings provide valuable insights into the dynamic electrical activity of the brain, aiding clinicians in identifying epileptiform patterns and guiding treatment decisions. However, the analysis of EEG data is often challenged by limitations such as data scarcity, artifacts, and variability across patients.
 In recent years, deep learning techniques, particularly Generative Adversarial Networks (GANs), have emerged as promising approaches for enhancing the quality and utility of EEG data. GANs offer a powerful framework for generating synthetic EEG samples that closely resemble real-world recordings, enabling data augmentation and artifact removal while preserving the underlying physiological characteristics.
@@ -56,6 +57,12 @@ The discriminator in WaveGAN is responsible for distinguishing between real EEG 
 
 
 # Results
+![image](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/37171f36-179e-41d2-b143-c8ba73ae4e36)
+![image](https://github.com/saumitkunder/EEG-DATA-SYNTHESIS-USING-GANS/assets/126694480/86b44362-68cf-4f07-bcec-9bc2781692dc)
+
+
+
+
 
 # Future Work
 
